@@ -1,31 +1,13 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 
-&pinctrl {
-    spi0_default: spi0_default {
-        group1 {
-	psels = <NRF_PSEL(SPIM_SCK, 1, 13)>,
-				<NRF_PSEL(SPIM_MOSI, 1, 15)>,
-				<NRF_PSEL(SPIM_MISO, 1, 14)>;
-        };
-    };
 
-    spi0_sleep: spi0_sleep {
-        group1 {
-            psels = <NRF_PSEL(SPIM_SCK, 1, 13)>,
-				<NRF_PSEL(SPIM_MOSI, 1, 15)>,
-				<NRF_PSEL(SPIM_MISO, 1, 14)>;
-            low-power-enable;
-        };
-    };
-}; 
-
-&spi0 {
+&xiao_spi {
 	compatible = "nordic,nrf-spim";
 	cs-gpios = <&xiao_d 7 GPIO_ACTIVE_LOW>;
 	status = "okay";
-	pinctrl-0 = <&spi0_default>;
-	pinctrl-1 = <&spi0_sleep>;
+	pinctrl-0 = <&xiao_spi_default>;
+	pinctrl-1 = <&xiao_spi_sleep>;
 	pinctrl-names = "default", "sleep";
 	trackball: trackball@0 {
 		compatible = "pixart,pmw3360";
@@ -44,7 +26,9 @@
 	};
 	
 	kscan0: kscan {
-		 compatible = "zmk,kscan-gpio-charlieplex";
+		compatible = "zmk,kscan-gpio-charlieplex";
+		label = "KSCAN";
+
         
         	gpios
           	= <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN) >
