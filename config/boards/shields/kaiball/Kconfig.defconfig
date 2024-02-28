@@ -1,0 +1,9 @@
+if SHIELD_KAIBALL
+
+config ZMK_KEYBOARD_NAME
+    default "kaiball"
+
+config SPI
+	default y
+
+endif
