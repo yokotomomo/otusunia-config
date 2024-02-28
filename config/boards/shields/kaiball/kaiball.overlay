@@ -24,7 +24,7 @@
 
 &spi0 {
 	compatible = "nordic,nrf-spim";
-	cs-gpios = <&gpio0 7 GPIO_ACTIVE_LOW>;
+	cs-gpios = <&xiao_d  7 GPIO_ACTIVE_LOW>;
 	status = "okay";
 	pinctrl-0 = <&spi0_default>;
 	pinctrl-1 = <&spi0_sleep>;
@@ -35,7 +35,7 @@
 		reg = <0>;
 		label = "TRACKBALL";
 		spi-max-frequency = <2000000>;
-		irq-gpios = <&gpio0 5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+		irq-gpios = <&xiao_d  5 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 		//duplex = <2048>; // required by 3-wire spi
 	};
 };
