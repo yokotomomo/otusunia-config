@@ -9,8 +9,8 @@ manifest:
       remote: zmkfirmware
       revision: feat/pointers-move-scroll
       import: app/west.yml
-    - name: pmw3360
+    - name: pmwdriver
       remote: pmwdriver
-      revision: pmw3360
+      revision: pmw3160
   self:
     path: config
