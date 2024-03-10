@@ -1,0 +1,18 @@
+#include "kaiball.dtsi"
+
+
+// trackball bus
+&xiao_spi {
+	status = "okay"; //okay
+	sck-pin = <8>;
+	mosi-pin = <9>;
+	miso-pin = <9>; // same as mosi (3-wire spi) 
+	// dipo = <10>;
+	// dopo = <9>;
+	cs-gpios = <&xiao_d 7 GPIO_ACTIVE_LOW>;
+};
+
+&trackball {
+	status = "okay"; //okay
+	irq-gpios = <&xiao_d 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
+};
