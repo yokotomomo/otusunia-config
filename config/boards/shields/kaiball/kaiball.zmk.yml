@@ -6,3 +6,5 @@ requires: [seeed_xiao]
 features:
   - keys
   - pointer
+siblings:
+  - kaiball_main
