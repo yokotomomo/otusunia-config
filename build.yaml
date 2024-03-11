@@ -19,6 +19,6 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: kaiball
+    shield: kaiball_main
   - board: seeeduino_xiao_ble
     shield: settings_reset
