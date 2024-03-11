@@ -2,7 +2,8 @@ file_format: "1"
 id: kaiball
 name: kaiball
 type: shield
-requires: [seeed_xiao]
+url: https://github.com/Bastardkb/Charybdis/
+requires: [pro_micro]
 features:
   - keys
   - pointer
