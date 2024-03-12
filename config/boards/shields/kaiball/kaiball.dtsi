@@ -33,4 +33,27 @@
 			RC(0,5) RC(1,5) RC(2,5) RC(3,5) RC(5,0) RC(5,1) RC(5,2) RC(5,3)
 		>;
 	};
+
+	
+  /* Configure trackballs (either split can have the trackball) */
+	trackballs {
+		compatible = "zmk,keymap-trackballs";
+		trackballs = <&trackball>;
+	};
+};
+
+
+
+/* Declare the trackball */
+&spi0 {
+  compatible = "nordic,nrf-spim";
+
+  trackball: trackball@0 {
+    compatible = "pixart,pmw3610";
+    status = "disabled";
+    reg = <0>;
+    label = "TRACKBALL";
+    spi-max-frequency = <2000000>;
+    duplex = <2048>; // required by 3-wire spi
+  };
 };
