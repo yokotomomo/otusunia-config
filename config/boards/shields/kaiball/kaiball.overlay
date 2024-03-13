@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include "xiao_ble-pinctrl.dtsi"
+#include "xiao_ble-pinctrl.overlay"
 
 / {
 	chosen {
