@@ -1,3 +1,4 @@
+
 #include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -7,177 +8,246 @@
         compatible = "zmk,combos";
 
         g {
-            bindings = <&kp G>;
-            key-positions = <4 12>;
-            layers = <0>;
-        };
-
-        d {
-            bindings = <&kp D>;
-            key-positions = <13 5>;
-            layers = <0>;
-        };
-
-        b {
             bindings = <&kp B>;
-            key-positions = <7 15>;
-            layers = <0>;
-        };
-
-        p {
-            bindings = <&kp P>;
-            key-positions = <12 7>;
-            layers = <0>;
-        };
-
-        j {
-            bindings = <&kp J>;
-            key-positions = <4 5>;
-            layers = <0>;
-        };
-
-        z {
-            bindings = <&kp Z>;
-            key-positions = <12 13>;
-            layers = <0>;
-        };
-
-        c {
-            bindings = <&kp C>;
-            key-positions = <12 14>;
-            layers = <0>;
-        };
-
-        v {
-            bindings = <&kp V>;
             key-positions = <12 15>;
             layers = <0>;
         };
 
-        x {
-            bindings = <&kp X>;
-            key-positions = <4 13>;
+        d {
+            bindings = <&kp B>;
+            key-positions = <8 11>;
             layers = <0>;
         };
 
-        l {
-            bindings = <&kp L>;
-            key-positions = <5 7>;
+        b {
+            bindings = <&kp C>;
+            key-positions = <12 13>;
             layers = <0>;
         };
 
-        f {
+        p {
+            bindings = <&kp C>;
+            key-positions = <11 10>;
+            layers = <0>;
+        };
+
+        j {
+            bindings = <&kp D>;
+            key-positions = <4 5 6>;
+            layers = <0>;
+        };
+
+        z {
+            bindings = <&kp D>;
+            key-positions = <3 2 1>;
+            layers = <0>;
+        };
+
+        c {
             bindings = <&kp F>;
-            key-positions = <4 7>;
+            key-positions = <4 5>;
             layers = <0>;
         };
 
-        q {
-            bindings = <&kp Q>;
-            key-positions = <12 7>;
-            layers = <0>;
-        };
-
-        comm {
-            bindings = <&kp COMMA>;
-            key-positions = <2 1>;
-            layers = <0>;
-        };
-
-        dot {
-            bindings = <&kp PERIOD>;
+        v {
+            bindings = <&kp F>;
             key-positions = <3 2>;
             layers = <0>;
         };
 
-        lang {
-            bindings = <&kp GRAVE>;
-            key-positions = <3 4>;
+        x {
+            bindings = <&kp G>;
+            key-positions = <5 6>;
             layers = <0>;
         };
 
-        enter {
-            bindings = <&kp ENTER>;
-            key-positions = <11 3>;
+        l {
+            bindings = <&kp G>;
+            key-positions = <2 1>;
             layers = <0>;
         };
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <1 8>;
-            layers = <0>;
-        };
-
-        seven {
-            bindings = <&kp KP_NUMBER_7>;
-            key-positions = <1 9>;
-            layers = <1>;
-        };
-
-        eight {
-            bindings = <&kp KP_NUMBER_8>;
-            key-positions = <2 10>;
-            layers = <1>;
-        };
-
-        nine {
-            bindings = <&kp KP_NUMBER_9>;
-            key-positions = <3 11>;
-            layers = <1>;
-        };
-
-        bikkuri {
-            bindings = <&kp EXCLAMATION>;
-            key-positions = <1 9>;
-            layers = <0>;
-        };
-
-        migikakko {
-            bindings = <&kp LS(N8)>;
-            key-positions = <1 3>;
-            layers = <0>;
-        };
-
-        hidarikakko {
-            bindings = <&kp LEFT_PARENTHESIS>;
+        f {
+            bindings = <&kp H>;
             key-positions = <11 9>;
             layers = <0>;
         };
 
+        q {
+            bindings = <&kp H>;
+            key-positions = <12 14>;
+            layers = <0>;
+        };
+
+        comm {
+            bindings = <&kp J>;
+            key-positions = <7 6>;
+            layers = <0>;
+        };
+
+        dot {
+            bindings = <&kp J>;
+            key-positions = <1 0>;
+            layers = <0>;
+        };
+
+        lang {
+            bindings = <&kp K>;
+            key-positions = <13 15>;
+            layers = <0>;
+        };
+
+        enter {
+            bindings = <&kp K>;
+            key-positions = <8 10>;
+            layers = <0>;
+        };
+
+        tab {
+            bindings = <&kp L>;
+            key-positions = <13 14 12>;
+            layers = <0>;
+        };
+
+        seven {
+            bindings = <&kp L>;
+            key-positions = <9 10 11>;
+        };
+
+        eight {
+            bindings = <&kp M>;
+            key-positions = <15 14 13>;
+        };
+
+        nine {
+            bindings = <&kp M>;
+            key-positions = <8 9 10>;
+            layers = <1>;
+        };
+
+        bikkuri {
+            bindings = <&kp N>;
+            key-positions = <15 14>;
+            layers = <0>;
+        };
+
+        migikakko {
+            bindings = <&kp N>;
+            key-positions = <8 9>;
+            layers = <0>;
+        };
+
+        hidarikakko {
+            bindings = <&kp P>;
+            key-positions = <15 14 12>;
+            layers = <0>;
+        };
+
         nakatenslashhatena {
-            bindings = <&kp QUESTION>;
-            key-positions = <2 10>;
+            bindings = <&kp P>;
+            key-positions = <8 9 11>;
             layers = <0>;
         };
 
         quoteanddouble {
-            bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <1 2>;
+            bindings = <&kp Q>;
+            key-positions = <7 6 4>;
             layers = <0>;
         };
 
         backquote {
-            bindings = <&kp GRAVE>;
-            key-positions = <2 3>;
-            layers = <1>;
+            bindings = <&kp Q>;
+            key-positions = <3 0 1>;
         };
 
         persent {
-            bindings = <&kp PERCENT>;
-            key-positions = <13 5>;
-            layers = <1>;
-        };
-
-        and {
-            bindings = <&kp AMPERSAND>;
-            key-positions = <15 7>;
-            layers = <1>;
-        };
-
-        w {
-            bindings = <&kp W>;
+            bindings = <&kp U>;
             key-positions = <14 13>;
-            layers = <0>;
+        };
+
+        uuu {
+            bindings = <&kp U>;
+            key-positions = <9 10>;
+        };
+
+        vv {
+            bindings = <&kp V>;
+            key-positions = <5 7>;
+        };
+
+        vvv {
+            bindings = <&kp V>;
+            key-positions = <0 2>;
+        };
+
+        ww {
+            bindings = <&kp W>;
+            key-positions = <7 4>;
+        };
+
+        wwww {
+            bindings = <&kp W>;
+            key-positions = <0 3>;
+        };
+
+        xxxx {
+            bindings = <&kp X>;
+            key-positions = <5 6 7>;
+        };
+
+        xxxxxxx {
+            bindings = <&kp X>;
+            key-positions = <0 1 2>;
+        };
+
+        nzzzzz {
+            bindings = <&kp Z>;
+            key-positions = <4 5 6 7>;
+        };
+
+        zzzzzzz {
+            bindings = <&kp Z>;
+            key-positions = <0 1 2 3>;
+        };
+
+        iiii {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <6 14>;
+        };
+
+        iii {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <1 9>;
+        };
+
+        aaaaaa {
+            bindings = <&kp QUESTION>;
+            key-positions = <7 15>;
+        };
+
+        aaaaaaa {
+            bindings = <&kp QUESTION>;
+            key-positions = <0 8>;
+        };
+
+        eee {
+            bindings = <&kp ENTER>;
+            key-positions = <4 12>;
+        };
+
+        eeee {
+            bindings = <&kp ENTER>;
+            key-positions = <3 11>;
+        };
+
+        sss {
+            bindings = <&kp SPACE>;
+            key-positions = <12 13 14 15>;
+        };
+
+        spannnn {
+            bindings = <&kp SPACE>;
+            key-positions = <8 9 10 11>;
         };
     };
 
@@ -191,24 +261,22 @@
             // ------------------------------------------------------------------------------------------
 
             bindings = <
-&mt LEFT_SHIFT SPACE  &kp MINUS  &kp U  &kp BACKSPACE  &kp K  &kp R  &lt 1 Y  &kp M
-&lt 3 E               &kp I      &kp A  &kp O          &kp T  &kp N  &kp S    &kp H
+&kp Y  &kp T  &kp R  &kp A  &kp A  &kp R  &kp T  &kp S
+&kp O  &kp I  &kp A  &kp E  &kp E  &kp Y  &kp I  &kp O
             >;
-
         };
 
         raise {
             bindings = <
-&trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp COLON  &kp SEMICOLON  &trans    &kp PIPE
-&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp RBKT   &kp BACKSLASH  &kp HASH  &kp BACKSLASH
+&trans           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SQT   &kp SEMICOLON  &trans    &kp PIPE
+&kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp RBKT  &kp BACKSLASH  &kp HASH  &kp KP_DIVIDE
             >;
-
         };
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans
-&trans  &trans  &trans  &trans   &kp I     &kp I    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &kp I   &kp I   &trans  &trans
             >;
         };
 
