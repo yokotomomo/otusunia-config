@@ -154,7 +154,6 @@
         persent {
             bindings = <&mkp MB1>;
             key-positions = <4 13>;
-            layers = <1>;
         };
 
         and {
