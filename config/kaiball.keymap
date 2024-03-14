@@ -152,8 +152,8 @@
         };
 
         persent {
-            bindings = <&kp PERCENT>;
-            key-positions = <13 5>;
+            bindings = <&mkp MB1>;
+            key-positions = <4 13>;
             layers = <1>;
         };
 
@@ -166,11 +166,6 @@
         w {
             bindings = <&kp W>;
             key-positions = <14 13>;
-        };
-
-        mb13 {
-            bindings = <&mkp LCLK>;
-            key-positions = <13 4>;
         };
 
         mb2 {
