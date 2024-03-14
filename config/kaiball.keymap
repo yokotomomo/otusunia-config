@@ -20,13 +20,11 @@
         b {
             bindings = <&kp B>;
             key-positions = <7 15>;
-            layers = <0>;
         };
 
         p {
             bindings = <&kp P>;
             key-positions = <12 7>;
-            layers = <0>;
         };
 
         j {
@@ -37,7 +35,6 @@
         z {
             bindings = <&kp Z>;
             key-positions = <12 13>;
-            layers = <0>;
         };
 
         c {
@@ -48,25 +45,21 @@
         v {
             bindings = <&kp V>;
             key-positions = <12 15>;
-            layers = <0>;
         };
 
         x {
             bindings = <&kp X>;
             key-positions = <13 14 15>;
-            layers = <0>;
         };
 
         l {
             bindings = <&kp L>;
             key-positions = <5 7>;
-            layers = <0>;
         };
 
         f {
             bindings = <&kp F>;
             key-positions = <4 7>;
-            layers = <0>;
         };
 
         q {
@@ -175,8 +168,8 @@
             key-positions = <14 13>;
         };
 
-        mb1 {
-            bindings = <&mkp MB1>;
+        mb13 {
+            bindings = <&mkp LCLK>;
             key-positions = <13 4>;
         };
 
