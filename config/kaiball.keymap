@@ -180,18 +180,6 @@
             key-positions = <14 13>;
             layers = <0>;
         };
-
-        combomkp1 {
-            bindings = <&mkp MB1>;
-            key-positions = <4 12>;
-            layers = <2>;
-        };
-
-        mb2 {
-            bindings = <&mkp MB2>;
-            key-positions = <4 13>;
-            layers = <2>;
-        };
     };
 
     keymap {
@@ -218,8 +206,8 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans
             >;
         };
 
