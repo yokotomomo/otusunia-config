@@ -160,6 +160,11 @@
             bindings = <&mkp MB2>;
             key-positions = <4 13>;
         };
+
+        back {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <3 2 1>;
+        };
     };
 
     keymap {
@@ -172,8 +177,8 @@
             // ------------------------------------------------------------------------------------------
 
             bindings = <
-&mt LEFT_SHIFT SPACE  &kp MINUS  &kp U  &kp BACKSPACE  &kp K  &kp R  &lt 1 Y  &kp M
-&lt 3 E               &kp I      &kp A  &kp O          &kp T  &kp N  &kp S    &kp H
+&mt LEFT_SHIFT SPACE  &kp MINUS  &kp U  &mkp MB1  &kp K  &kp R  &lt 1 Y  &kp M
+&lt 3 E               &kp I      &kp A  &kp O     &kp T  &kp N  &kp S    &kp H
             >;
         };
 
