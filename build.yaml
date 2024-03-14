@@ -19,6 +19,6 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: kaiball
+    shield: momonga
   - board: seeeduino_xiao_ble
     shield: settings_reset
