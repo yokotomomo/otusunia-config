@@ -24,7 +24,7 @@
 
         p {
             bindings = <&kp P>;
-            key-positions = <12 7>;
+            key-positions = <7 6>;
         };
 
         j {
