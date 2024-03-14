@@ -1,0 +1,2 @@
+config SHIELD_MOMONGA_MAIN
+    def_bool $(shields_list_contains,momonga)

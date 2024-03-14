@@ -1,2 +1,0 @@
-config SHIELD_KAIBALL_MAIN
-    def_bool $(shields_list_contains,kaiball)
