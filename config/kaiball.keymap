@@ -10,13 +10,11 @@
         g {
             bindings = <&kp G>;
             key-positions = <4 12>;
-            layers = <0>;
         };
 
         d {
             bindings = <&kp D>;
             key-positions = <13 5>;
-            layers = <0>;
         };
 
         b {
@@ -33,8 +31,7 @@
 
         j {
             bindings = <&kp J>;
-            key-positions = <4 5>;
-            layers = <0>;
+            key-positions = <14 6>;
         };
 
         z {
@@ -46,7 +43,6 @@
         c {
             bindings = <&kp C>;
             key-positions = <12 14>;
-            layers = <0>;
         };
 
         v {
@@ -76,7 +72,6 @@
         q {
             bindings = <&kp Q>;
             key-positions = <12 7>;
-            layers = <0>;
         };
 
         comm {
@@ -178,7 +173,6 @@
         w {
             bindings = <&kp W>;
             key-positions = <14 13>;
-            layers = <0>;
         };
 
         mb1 {
