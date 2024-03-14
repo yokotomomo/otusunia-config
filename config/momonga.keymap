@@ -151,17 +151,6 @@
             layers = <1>;
         };
 
-        persent {
-            bindings = <&mkp MB1>;
-            key-positions = <4 13>;
-        };
-
-        and {
-            bindings = <&kp AMPERSAND>;
-            key-positions = <15 7>;
-            layers = <1>;
-        };
-
         w {
             bindings = <&kp W>;
             key-positions = <14 13>;
@@ -197,8 +186,8 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &mkp MB1  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
 
