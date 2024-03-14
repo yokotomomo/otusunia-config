@@ -57,7 +57,7 @@
 
         x {
             bindings = <&kp X>;
-            key-positions = <4 13>;
+            key-positions = <13 14 15>;
             layers = <0>;
         };
 
@@ -216,8 +216,8 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &none   &none  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &none  &none   &trans
             >;
         };
 
