@@ -180,6 +180,16 @@
             key-positions = <14 13>;
             layers = <0>;
         };
+
+        mb1 {
+            bindings = <&mkp MB1>;
+            key-positions = <13 4>;
+        };
+
+        mb2 {
+            bindings = <&mkp MB2>;
+            key-positions = <4 14>;
+        };
     };
 
     keymap {
