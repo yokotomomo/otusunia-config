@@ -163,7 +163,7 @@
 
         back {
             bindings = <&kp BACKSPACE>;
-            key-positions = <8 0>;
+            key-positions = <11 10>;
         };
     };
 
