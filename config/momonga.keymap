@@ -177,8 +177,8 @@
             // ------------------------------------------------------------------------------------------
 
             bindings = <
-&mt LEFT_SHIFT SPACE  &kp MINUS  &kp U  &mkp MB1  &kp K  &kp R  &lt 1 Y  &kp M
-&lt 3 E               &kp I      &kp A  &kp O     &kp T  &kp N  &kp S    &kp H
+&kp K  &kp T  &kp U  &kp N  &kp N  &kp U  &kp T  &kp K
+&kp E  &kp I  &kp A  &kp O  &kp O  &kp A  &kp I  &kp E
             >;
         };
 
