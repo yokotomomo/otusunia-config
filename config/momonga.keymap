@@ -228,7 +228,7 @@
         };
 
         haihun {
-            bindings = <&kp MINUS>;
+            bindings = <&kp KP_MINUS>;
             key-positions = <15 14 15 14 13 12>;
         };
 
@@ -298,8 +298,8 @@
             // ------------------------------------------------------------------------------------------
 
             bindings = <
-&kp K  &kp T  &kp U  &kp N  &kp N  &kp U  &kp T  &kp K
-&kp E  &kp I  &kp A  &kp O  &kp O  &kp A  &kp I  &kp E
+&kp K    &lt 2 T  &kp U  &kp N  &kp N  &kp U  &lt 2 T  &kp K
+&lt 3 E  &kp I    &kp A  &kp O  &kp O  &kp A  &kp I    &lt 3 E
             >;
         };
 
