@@ -14,7 +14,7 @@
 
         g2 {
             bindings = <&kp G>;
-            key-positions = <2 10>;
+            key-positions = <3 11>;
         };
 
         d {
