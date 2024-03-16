@@ -228,7 +228,7 @@
         };
 
         haihun {
-            bindings = <&kp KP_MINUS>;
+            bindings = <&kp MINUS>;
             key-positions = <15 14 15 14 13 12>;
         };
 
@@ -275,16 +275,6 @@
         hatena2 {
             bindings = <&kp QUESTION>;
             key-positions = <0 9>;
-        };
-
-        layer2 {
-            bindings = <&to 2>;
-            key-positions = <4 5 7 6>;
-        };
-
-        layer {
-            bindings = <&to 2>;
-            key-positions = <3 2 1 0>;
         };
     };
 
