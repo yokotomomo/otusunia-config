@@ -281,6 +281,11 @@
             bindings = <&to 2>;
             key-positions = <4 5 7 6>;
         };
+
+        layer {
+            bindings = <&to 2>;
+            key-positions = <3 2 1 0>;
+        };
     };
 
     keymap {
