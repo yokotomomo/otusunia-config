@@ -417,8 +417,8 @@
 
         layer_5 {
             bindings = <
-&to 0  &to 0  &mkp MB2  &mkp MB1  &mkp MB1  &mkp MB2  &to 0  &to 0
-&to 0  &to 0  &to 0     &to 0     &to 0     &to 0     &to 0  &to 0
+&kp LS(LBKT)  &kp LS(N2)  &kp LS(N7)  &trans  &trans  &kp LS(N7)  &kp LS(N2)  &kp LS(LBKT)
+&kp LS(INT1)  &kp SEMI    &kp SQT     &trans  &trans  &kp SQT     &kp SEMI    &kp LS(INT1)
             >;
         };
     };
