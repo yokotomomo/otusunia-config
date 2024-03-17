@@ -458,85 +458,85 @@
         and {
             bindings = <&kp LS(N6)>;
             key-positions = <5 6>;
-            layers = <4>;
+            layers = <5>;
         };
 
         and2 {
             bindings = <&kp LS(N6)>;
             key-positions = <2 1>;
-            layers = <4>;
+            layers = <5>;
         };
 
         pipe {
             bindings = <&kp LS(INT3)>;
             key-positions = <6 7>;
-            layers = <4>;
+            layers = <5>;
         };
 
         pipe2 {
             bindings = <&kp LS(INT3)>;
             key-positions = <0 1>;
-            layers = <4>;
+            layers = <5>;
         };
 
         at {
             bindings = <&kp LBKT>;
             key-positions = <13 14>;
-            layers = <4>;
+            layers = <5>;
         };
 
         at2 {
             bindings = <&kp LBKT>;
             key-positions = <9 10>;
-            layers = <4>;
+            layers = <5>;
         };
 
         hash {
             bindings = <&kp LS(N3)>;
             key-positions = <14 15>;
-            layers = <4>;
+            layers = <5>;
         };
 
         hash2 {
             bindings = <&kp LS(N3)>;
             key-positions = <9 8>;
-            layers = <4>;
+            layers = <5>;
         };
 
         bslash {
             bindings = <&kp INT1>;
             key-positions = <5 13>;
-            layers = <4>;
+            layers = <5>;
         };
 
         bslash2 {
             bindings = <&kp INT1>;
             key-positions = <10 2>;
-            layers = <4>;
+            layers = <5>;
         };
 
         yen {
             bindings = <&kp INT3>;
             key-positions = <6 14>;
-            layers = <4>;
+            layers = <5>;
         };
 
         yen2 {
             bindings = <&kp INT3>;
             key-positions = <1 9>;
-            layers = <4>;
+            layers = <5>;
         };
 
         doll {
             bindings = <&kp LS(N4)>;
             key-positions = <7 15>;
-            layers = <4>;
+            layers = <5>;
         };
 
         doll2 {
             bindings = <&kp LS(N4)>;
             key-positions = <0 8>;
-            layers = <4>;
+            layers = <5>;
         };
     };
 
