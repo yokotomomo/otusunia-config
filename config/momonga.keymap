@@ -370,7 +370,6 @@
             key-positions = <9 10>;
             layers = <1>;
         };
-
     };
 
     keymap {
@@ -384,11 +383,11 @@
 
             bindings = <
 &lt 1 K  &lt 2 T  &kp U  &lt 4 N  &lt 4 N  &kp U  &lt 2 T  &lt 1 K
-&lt 3 E  &kp I    &kp A  &lt 5 O    &lt 5 O    &kp A  &kp I    &lt 3 E
+&lt 3 E  &kp I    &kp A  &lt 5 O  &lt 5 O  &kp A  &kp I    &lt 3 E
             >;
         };
 
-        layer_0  {
+        layer_0 {
             bindings = <
 &trans  &kp KP_N3  &kp KP_N2  &kp KP_N1  &kp KP_N1  &kp KP_N2  &kp KP_N3  &trans
 &none   &kp KP_N6  &kp KP_N5  &kp KP_N4  &kp KP_N4  &kp KP_N5  &kp KP_N6  &none
@@ -411,16 +410,16 @@
 
         layer_4 {
             bindings = <
-
-&to 0  &to 0  &mkp MB2  &mkp MB1  &mkp MB1  &mkp MB2  &to 0  &to 0
-&to 0  &to 0  &to 0     &to 0     &to 0     &to 0     &to 0  &to 0            >;
+&kp LS(RBKT)  &kp RBKT  &kp LS(N8)  &trans  &trans  &kp LS(N8)  &kp RBKT  &kp LS(RBKT)
+&kp LS(NUHS)  &kp NUHS  &kp LS(N9)  &trans  &trans  &kp LS(N9)  &kp NUHS  &kp LS(NUHS)
+            >;
         };
 
-         layer_5 {
+        layer_5 {
             bindings = <
-
 &to 0  &to 0  &mkp MB2  &mkp MB1  &mkp MB1  &mkp MB2  &to 0  &to 0
-&to 0  &to 0  &to 0     &to 0     &to 0     &to 0     &to 0  &to 0            >;
+&to 0  &to 0  &to 0     &to 0     &to 0     &to 0     &to 0  &to 0
+            >;
         };
     };
 };
