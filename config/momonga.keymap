@@ -416,6 +416,30 @@ ZMK_UNICODE_SINGLE(kakko5r,  F, F, N0, N9) // ）
             key-positions = <1 9>;
             layers = <1>;
         };
+
+        percent {
+            bindings = <&kp JP_PRCNT‎‎>;
+            key-positions = <4 6>;
+            layers = <1>;
+        };
+
+        percenttwo {
+            bindings = <&kp JP_PRCNT‎‎>;
+            key-positions = <1 3>;
+            layers = <1>;
+        };
+
+        equal {
+            bindings = <&kp JP_EQUAL‎‎>;
+            key-positions = <12 14>;
+            layers = <1>;
+        };
+
+        equaltwo {
+            bindings = <&kp JP_EQUAL‎‎>;
+            key-positions = <11 9>;
+            layers = <1>;
+        };
     };
 
     keymap {
