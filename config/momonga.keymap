@@ -440,6 +440,33 @@ ZMK_UNICODE_SINGLE(kakko5r,  F, F, N0, N9) // ）
             key-positions = <11 9>;
             layers = <1>;
         };
+
+
+        lt {
+            bindings = <&kp JP_LT‎‎>;
+            key-positions = <4 6>;
+            layers = <4>;
+        }; 
+
+        lt2 {
+            bindings = <&kp JP_LT‎‎>;
+            key-positions = <0 2>;
+            layers = <4>;
+        };
+
+
+
+        rt {
+            bindings = <&kp JP_RT‎‎>;
+            key-positions = <12 14>;
+            layers = <4>;
+        }; 
+
+        rt2 {
+            bindings = <&kp JP_RT‎‎>;
+            key-positions = <8 19>;
+            layers = <4>;
+        };
     };
 
     keymap {
