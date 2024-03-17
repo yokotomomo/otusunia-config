@@ -227,16 +227,6 @@
             key-positions = <3 2 1>;
         };
 
-        haihuni {
-            bindings = <&kp MINUS>;
-            key-positions = <15 15 13 12>;
-        };
-
-        haihun2 {
-            bindings = <&kp MINUS>;
-            key-positions = <11 10 8>;
-        };
-
         conm {
             bindings = <&kp COMMA>;
             key-positions = <13 4>;
@@ -275,6 +265,16 @@
         hatena2 {
             bindings = <&kp QUESTION>;
             key-positions = <0 9>;
+        };
+
+        haihuni {
+            bindings = <&kp MINUS>;
+            key-positions = <15 4>;
+        };
+
+        haihuniii {
+            bindings = <&kp MINUS>;
+            key-positions = <3 8>;
         };
     };
 
