@@ -276,61 +276,73 @@ ZMK_UNICODE_SINGLE(kakko5r,  F, F, N0, N9) // ）
         hankaku {
             bindings = <&kp GRAVE>;
             key-positions = <4 5 6>;
+            layers = <0>;
         };
 
         hankaku2 {
             bindings = <&kp GRAVE>;
             key-positions = <3 2 1>;
+            layers = <0>;
         };
 
         conm {
             bindings = <&kp COMMA>;
             key-positions = <13 4>;
+            layers = <0>;
         };
 
         conm2 {
             bindings = <&kp COMMA>;
             key-positions = <3 10>;
+            layers = <0>;
         };
 
         dot {
             bindings = <&kp PERIOD>;
             key-positions = <12 5>;
+            layers = <0>;
         };
 
         dot2 {
             bindings = <&kp PERIOD>;
             key-positions = <2 11>;
+            layers = <0>;
         };
 
         bikkuri {
             bindings = <&kp EXCLAMATION>;
             key-positions = <6 15>;
+            layers = <0>;
         };
 
         bikkuri2 {
             bindings = <&kp EXCLAMATION>;
             key-positions = <1 8>;
+            layers = <0>;
         };
 
         hatena {
             bindings = <&kp QUESTION>;
             key-positions = <7 14>;
+            layers = <0>;
         };
 
         hatena2 {
             bindings = <&kp QUESTION>;
             key-positions = <0 9>;
+            layers = <0>;
         };
 
         haihuni {
             bindings = <&kp MINUS>;
             key-positions = <15 4>;
+            layers = <0>;
         };
 
         haihuniii {
             bindings = <&kp MINUS>;
             key-positions = <3 8>;
+            layers = <0>;
         };
 
         seven {
