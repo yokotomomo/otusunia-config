@@ -227,7 +227,7 @@
             key-positions = <3 2 1>;
         };
 
-        haihunh {
+        haihuni {
             bindings = <&kp MINUS>;
             key-positions = <15 15 13 12>;
         };
