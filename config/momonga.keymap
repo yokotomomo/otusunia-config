@@ -229,12 +229,12 @@
 
         haihunh {
             bindings = <&kp MINUS>;
-            key-positions = <15 14 15 14 13 12>;
+            key-positions = <15 15 13 12>;
         };
 
         haihun2 {
             bindings = <&kp MINUS>;
-            key-positions = <11 10 9 8>;
+            key-positions = <11 10 8>;
         };
 
         conm {
