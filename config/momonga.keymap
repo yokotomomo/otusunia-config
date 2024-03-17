@@ -433,7 +433,7 @@ ZMK_UNICODE_SINGLE(kakko5r,  F, F, N0, N9) // ）
             >;
         };
 
-        raise {
+        layer_0  {
             bindings = <
 &trans  &kp KP_N3  &kp KP_N2  &kp KP_N1  &kp KP_N1  &kp KP_N2  &kp KP_N3  &trans
 &none   &kp KP_N6  &kp KP_N5  &kp KP_N4  &kp KP_N4  &kp KP_N5  &kp KP_N6  &none
