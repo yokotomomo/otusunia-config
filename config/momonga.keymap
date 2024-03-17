@@ -467,6 +467,92 @@ ZMK_UNICODE_SINGLE(kakko5r,  F, F, N0, N9) // ）
             key-positions = <8 19>;
             layers = <4>;
         };
+
+        and {
+            bindings = <&kp JP_AMPS‎‎‎>;
+            key-positions = <5 6>;
+            layers = <5>;
+        }; 
+
+        and2 {
+            bindings = <&kp JP_AMPS‎‎‎>;
+            key-positions = <1 2>;
+            layers = <5>;
+        };
+
+        pipe {
+            bindings = <&kp JP_PIPE‎‎‎>;
+            key-positions = <6 7>;
+            layers = <5>;
+        }; 
+
+        pipe2 {
+            bindings = <&kp JP_PIPE‎‎‎>;
+            key-positions = <0 1>;
+            layers = <5>;
+        };
+
+        at {
+            bindings = <&kp JP_AT‎‎‎‎>;
+            key-positions = <13 14>;
+            layers = <5>;
+        }; 
+
+        at2 {
+            bindings = <&kp JP_AT‎‎‎‎>;
+            key-positions = <9 10>;
+            layers = <5>;
+        };
+
+
+        hash {
+            bindings = <&kp JP_HASH‎‎‎‎>;
+            key-positions = <14 15>;
+            layers = <5>;
+        }; 
+
+        hash2 {
+            bindings = <&kp JP_HASH‎‎‎‎>;
+            key-positions = <8 9>;
+            layers = <5>;
+        };
+
+
+        yen {
+            bindings = <&kp JP_YEN‎‎‎‎>;
+            key-positions = <5 13>;
+            layers = <5>;
+        }; 
+
+        yen2 {
+            bindings = <&kp JP_YEN‎‎‎‎>;
+            key-positions = <2 10>;
+            layers = <5>;
+        };
+
+        doll {
+            bindings = <&kp JP_DLLR‎‎‎‎‎>;
+            key-positions = <7 15>;
+            layers = <5>;
+        }; 
+
+        doll2 {
+            bindings = <&kp JP_DLLR‎‎‎‎‎>;
+            key-positions = <0 8>;
+            layers = <5>;
+        };
+
+        bslash {
+            bindings = <&kp JP_BSLH‎‎‎‎‎‎>;
+            key-positions = <6 14>;
+            layers = <5>;
+        }; 
+
+        bslash2 {
+            bindings = <&kp JP_BSLH‎‎‎‎‎‎>;
+            key-positions = <1 9>;
+            layers = <5>;
+        };
     };
 
     keymap {
@@ -480,7 +566,7 @@ ZMK_UNICODE_SINGLE(kakko5r,  F, F, N0, N9) // ）
 
             bindings = <
 &lt 1 K  &lt 2 T  &kp U  &lt 4 N  &lt 4 N  &kp U  &lt 2 T  &lt 1 K
-&lt 3 E  &kp I    &kp A  &kp O    &kp O    &kp A  &kp I    &lt 3 E
+&lt 3 E  &kp I    &kp A  &lt 5 O    &lt 5 O    &kp A  &kp I    &lt 3 E
             >;
         };
 
@@ -509,6 +595,13 @@ ZMK_UNICODE_SINGLE(kakko5r,  F, F, N0, N9) // ）
             bindings = <
 &kp JP_LBRC   &kp JP_LBKT   &kp JP_LPAR   &trans  &trans  &kp JP_LPAR   &kp JP_LBKT   &kp JP_LBRC
 &kp JP_RBRC  &kp JP_RBKT  &kp JP_RPAR  &none   &none   &kp JP_RPAR  &kp JP_RBKT  &kp JP_RBRC
+            >;
+        };
+
+         layer_5 {
+            bindings = <
+&kp JP_GRAVE   &kp JP_DQT   &kp JP_SQT   &trans  &trans  &kp JP_SQT   &kp JP_DQT   &kp JP_GRAVE
+&kp JP_UNDER‎  &kp JP_SEMI ‎  &kp JP_COLON‎  &trans   &trans   &kp JP_COLON‎  &kp JP_SEMI   &kp JP_UNDER‎
             >;
         };
     };
