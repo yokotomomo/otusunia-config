@@ -380,6 +380,42 @@ ZMK_UNICODE_SINGLE(kakko5r,  F, F, N0, N9) // ）
             key-positions = <9 10>;
             layers = <1>;
         };
+
+       plus {
+            bindings = <&kp JP_PLUS>;
+            key-positions = <4 12>;
+            layers = <1>;
+        };
+
+       plustwo {
+            bindings = <&kp JP_PLUS>;
+            key-positions = <3 11>;
+            layers = <1>;
+        };
+
+       astrk {
+            bindings = <&kp JP_ASTRK>;
+            key-positions = <5 13>;
+            layers = <1>;
+        };
+
+       astrktwo {
+            bindings = <&kp JP_ASTRK>;
+            key-positions = <2 10>;
+            layers = <1>;
+        };
+
+        slash {
+            bindings = <&kp JP_SLASH‎>;
+            key-positions = <6 14>;
+            layers = <1>;
+        };
+
+        slashtwo {
+            bindings = <&kp JP_SLASH‎>;
+            key-positions = <1 9>;
+            layers = <1>;
+        };
     };
 
     keymap {
