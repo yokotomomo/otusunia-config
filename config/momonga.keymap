@@ -417,17 +417,6 @@ ZMK_UNICODE_SINGLE(kakko5r,  F, F, N0, N9) // ）
             layers = <1>;
         };
 
-        slash {
-            bindings = <&kp JP_SLASH‎>;
-            key-positions = <6 14>;
-            layers = <1>;
-        };
-
-        slashtwo {
-            bindings = <&kp JP_SLASH‎>;
-            key-positions = <1 9>;
-            layers = <1>;
-        };
 
         percent {
             bindings = <&kp JP_PRCNT‎‎>;
