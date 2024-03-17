@@ -3,28 +3,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-
-#include "unicode.h"
-#include "keycode_japanese.h"
-
-
-ZMK_UNICODE_SINGLE(nagaguro, N3, N0, F, B) // ・
-ZMK_UNICODE_SINGLE(tenten,   N2, N0, N2, N6) // …
-ZMK_UNICODE_SINGLE(zhyphen,  N2, N0, N1, N5) // ―
-ZMK_UNICODE_SINGLE(maru,     N3, N0, N0, N7) // 〇
-ZMK_UNICODE_SINGLE(batsu,    C, N3, N9, N7) // ×
-ZMK_UNICODE_SINGLE(kakko1l,  N3, N0, N0, C) // 「
-ZMK_UNICODE_SINGLE(kakko1r,  N3, N0, N0, D) // 」
-ZMK_UNICODE_SINGLE(kakko2l,  N3, N0, N0, E) // 『
-ZMK_UNICODE_SINGLE(kakko2r,  N3, N0, N0, F) // 』
-ZMK_UNICODE_SINGLE(kakko3l,  N3, N0, N1, N0) // 【
-ZMK_UNICODE_SINGLE(kakko3r,  N3, N0, N1, N1) // 】
-ZMK_UNICODE_SINGLE(kakko4l,  N3, N0, N0, A) // 《
-ZMK_UNICODE_SINGLE(kakko4r,  N3, N0, N0, B) // 》
-ZMK_UNICODE_SINGLE(kakko5l,  F, F, N0, N8) // （
-ZMK_UNICODE_SINGLE(kakko5r,  F, F, N0, N9) // ）
-
-
 / {
     combos {
         compatible = "zmk,combos";
@@ -393,179 +371,6 @@ ZMK_UNICODE_SINGLE(kakko5r,  F, F, N0, N9) // ）
             layers = <1>;
         };
 
-       plus {
-            bindings = <&kp JP_PLUS>;
-            key-positions = <4 12>;
-            layers = <1>;
-        };
-
-       plustwo {
-            bindings = <&kp JP_PLUS>;
-            key-positions = <3 11>;
-            layers = <1>;
-        };
-
-       astrk {
-            bindings = <&kp JP_ASTRK>;
-            key-positions = <5 13>;
-            layers = <1>;
-        };
-
-       astrktwo {
-            bindings = <&kp JP_ASTRK>;
-            key-positions = <2 10>;
-            layers = <1>;
-        };
-
-
-        slash {
-            bindings = <&kp JP_SLASH‎>;
-            key-positions = <6 14>;
-            layers = <1>;
-        };
-
-        slashtwo {
-            bindings = <&kp JP_SLASH‎>;
-            key-positions = <1 9>;
-            layers = <1>;
-        };
-
-        percent {
-            bindings = <&kp JP_PRCNT‎‎>;
-            key-positions = <4 6>;
-            layers = <1>;
-        };
-
-        percenttwo {
-            bindings = <&kp JP_PRCNT‎‎>;
-            key-positions = <1 3>;
-            layers = <1>;
-        };
-
-        equal {
-            bindings = <&kp JP_EQUAL‎‎>;
-            key-positions = <12 14>;
-            layers = <1>;
-        };
-
-        equaltwo {
-            bindings = <&kp JP_EQUAL‎‎>;
-            key-positions = <11 9>;
-            layers = <1>;
-        };
-
-
-        lt {
-            bindings = <&kp JP_LT‎‎>;
-            key-positions = <4 6>;
-            layers = <4>;
-        }; 
-
-        lt2 {
-            bindings = <&kp JP_LT‎‎>;
-            key-positions = <0 2>;
-            layers = <4>;
-        };
-
-
-
-        rt {
-            bindings = <&kp JP_RT‎‎>;
-            key-positions = <12 14>;
-            layers = <4>;
-        }; 
-
-        rt2 {
-            bindings = <&kp JP_RT‎‎>;
-            key-positions = <8 19>;
-            layers = <4>;
-        };
-
-        and {
-            bindings = <&kp JP_AMPS‎‎‎>;
-            key-positions = <5 6>;
-            layers = <5>;
-        }; 
-
-        and2 {
-            bindings = <&kp JP_AMPS‎‎‎>;
-            key-positions = <1 2>;
-            layers = <5>;
-        };
-
-        pipe {
-            bindings = <&kp JP_PIPE‎‎‎>;
-            key-positions = <6 7>;
-            layers = <5>;
-        }; 
-
-        pipe2 {
-            bindings = <&kp JP_PIPE‎‎‎>;
-            key-positions = <0 1>;
-            layers = <5>;
-        };
-
-        at {
-            bindings = <&kp JP_AT‎‎‎‎>;
-            key-positions = <13 14>;
-            layers = <5>;
-        }; 
-
-        at2 {
-            bindings = <&kp JP_AT‎‎‎‎>;
-            key-positions = <9 10>;
-            layers = <5>;
-        };
-
-
-        hash {
-            bindings = <&kp JP_HASH‎‎‎‎>;
-            key-positions = <14 15>;
-            layers = <5>;
-        }; 
-
-        hash2 {
-            bindings = <&kp JP_HASH‎‎‎‎>;
-            key-positions = <8 9>;
-            layers = <5>;
-        };
-
-
-        yen {
-            bindings = <&kp JP_YEN‎‎‎‎>;
-            key-positions = <5 13>;
-            layers = <5>;
-        }; 
-
-        yen2 {
-            bindings = <&kp JP_YEN‎‎‎‎>;
-            key-positions = <2 10>;
-            layers = <5>;
-        };
-
-        doll {
-            bindings = <&kp JP_DLLR‎‎‎‎‎>;
-            key-positions = <7 15>;
-            layers = <5>;
-        }; 
-
-        doll2 {
-            bindings = <&kp JP_DLLR‎‎‎‎‎>;
-            key-positions = <0 8>;
-            layers = <5>;
-        };
-
-        bslash {
-            bindings = <&kp JP_BSLH‎‎‎‎‎‎>;
-            key-positions = <6 14>;
-            layers = <5>;
-        }; 
-
-        bslash2 {
-            bindings = <&kp JP_BSLH‎‎‎‎‎‎>;
-            key-positions = <1 9>;
-            layers = <5>;
-        };
     };
 
     keymap {
@@ -606,16 +411,16 @@ ZMK_UNICODE_SINGLE(kakko5r,  F, F, N0, N9) // ）
 
         layer_4 {
             bindings = <
-&kp JP_LBRC   &kp JP_LBKT   &kp JP_LPAR   &trans  &trans  &kp JP_LPAR   &kp JP_LBKT   &kp JP_LBRC
-&kp JP_RBRC  &kp JP_RBKT  &kp JP_RPAR  &none   &none   &kp JP_RPAR  &kp JP_RBKT  &kp JP_RBRC
-            >;
+
+&to 0  &to 0  &mkp MB2  &mkp MB1  &mkp MB1  &mkp MB2  &to 0  &to 0
+&to 0  &to 0  &to 0     &to 0     &to 0     &to 0     &to 0  &to 0            >;
         };
 
          layer_5 {
             bindings = <
-&kp JP_GRAVE   &kp JP_DQT   &kp JP_SQT   &trans  &trans  &kp JP_SQT   &kp JP_DQT   &kp JP_GRAVE
-&kp JP_UNDER‎  &kp JP_SEMI ‎  &kp JP_COLON‎  &trans   &trans   &kp JP_COLON‎  &kp JP_SEMI   &kp JP_UNDER‎
-            >;
+
+&to 0  &to 0  &mkp MB2  &mkp MB1  &mkp MB1  &mkp MB2  &to 0  &to 0
+&to 0  &to 0  &to 0     &to 0     &to 0     &to 0     &to 0  &to 0            >;
         };
     };
 };
