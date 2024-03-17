@@ -1,4 +1,4 @@
-#include <dt-bindings/zmk/mouse.h>
+e#include <dt-bindings/zmk/mouse.h>
 #include <behaviors/mouse_keys.dtsi>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -347,7 +347,7 @@ ZMK_UNICODE_SINGLE(kakko5r,  F, F, N0, N9) // ）
 
         eight {
             bindings = <&kp KP_N8>;
-            key-positions = <5 6 6>;
+            key-positions = <5 6>;
             layers = <1>;
         };
 
@@ -420,8 +420,8 @@ ZMK_UNICODE_SINGLE(kakko5r,  F, F, N0, N9) // ）
 
         layer_4 {
             bindings = <
-&kp LEFT_BRACE   &kp LEFT_BRACKET   &kp LEFT_PARENTHESIS   &trans  &trans  &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET   &kp LEFT_BRACE
-&kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &none   &none   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET  &kp RIGHT_BRACE
+&kp JP_LBRC   &kp JP_LBKT   &kp JP_LPAR   &trans  &trans  &kp JP_LPAR   &kp JP_LBKT   &kp JP_LBRC
+&kp JP_RBRC  &kp JP_RBKT  &kp e  &none   &none   &kp JP_RPAR  &kp JP_RBKT  &kp JP_RBRC
             >;
         };
     };
