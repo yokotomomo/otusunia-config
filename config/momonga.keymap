@@ -421,7 +421,7 @@ ZMK_UNICODE_SINGLE(kakko5r,  F, F, N0, N9) // ）
         layer_4 {
             bindings = <
 &kp JP_LBRC   &kp JP_LBKT   &kp JP_LPAR   &trans  &trans  &kp JP_LPAR   &kp JP_LBKT   &kp JP_LBRC
-&kp JP_RBRC  &kp JP_RBKT  &kp e  &none   &none   &kp JP_RPAR  &kp JP_RBKT  &kp JP_RBRC
+&kp JP_RBRC  &kp JP_RBKT  &kp JP_RPAR  &none   &none   &kp JP_RPAR  &kp JP_RBKT  &kp JP_RBRC
             >;
         };
     };
