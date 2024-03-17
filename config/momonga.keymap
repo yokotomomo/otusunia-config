@@ -169,22 +169,22 @@
 
         q {
             bindings = <&kp Q>;
-            key-positions = <4 5 7>;
+            key-positions = <4 7 6>;
         };
 
         q2 {
             bindings = <&kp Q>;
-            key-positions = <0 2 3>;
+            key-positions = <0 3 1>;
         };
 
         l {
             bindings = <&kp L>;
-            key-positions = <12 13 15>;
+            key-positions = <12 15 14>;
         };
 
         l2 {
             bindings = <&kp L>;
-            key-positions = <8 10 11>;
+            key-positions = <8 11 9>;
         };
 
         enter {
