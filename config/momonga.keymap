@@ -584,6 +584,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
+            flavor = "tap-preferred";
         };
 
         mylt_behavior: mylt_behavior {
