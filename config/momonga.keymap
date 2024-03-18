@@ -577,10 +577,19 @@
     };
 
     behaviors {
-        new_behavior: new_behavior {
+        mymt_behavior: mymt_behavior {
             compatible = "zmk,behavior-hold-tap";
-            label = "NEW_BEHAVIOR";
+            label = "MYMT_BEHAVIOR";
             bindings = <&mt>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <300>;
+        };
+
+        mylt_behavior: mylt_behavior {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MYLT_BEHAVIOR";
+            bindings = <&lt>, <&kp>;
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
@@ -597,8 +606,8 @@
             // ------------------------------------------------------------------------------------------
 
             bindings = <
-&lt 1 K  &lt 2 T                     &lt 6 U                     &lt 4 N  &lt 4 N  &lt 6 U                     &lt 2 T                     &lt 1 K
-&lt 3 E  &new_behavior LEFT_SHIFT I  &new_behavior LEFT_SHIFT A  &lt 5 O  &lt 5 O  &new_behavior LEFT_SHIFT A  &new_behavior LEFT_SHIFT I  &lt 3 E
+&lt 1 K  &lt 2 T                      &mylt_behavior 6 U           &lt 4 N  &lt 4 N  &mylt_behavior 6 U           &lt 2 T                      &lt 1 K
+&lt 3 E  &mymt_behavior LEFT_SHIFT I  &mymt_behavior LEFT_SHIFT A  &lt 5 O  &lt 5 O  &mymt_behavior LEFT_SHIFT A  &mymt_behavior LEFT_SHIFT I  &lt 3 E
             >;
         };
 
