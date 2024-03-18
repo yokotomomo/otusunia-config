@@ -539,14 +539,14 @@
             layers = <5>;
         };
 
-        save {
-            bindings = <&kp LC(S)>;
+        wintab {
+            bindings = <&kp LG(TAB)>;
             key-positions = <4 12>;
             layers = <6>;
         };
 
-        save2 {
-            bindings = <&kp LC(S)>;
+        wintab2 {
+            bindings = <&kp LG(TAB)>;
             key-positions = <3 11>;
             layers = <6>;
         };
