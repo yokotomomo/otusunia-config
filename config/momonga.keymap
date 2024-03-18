@@ -574,6 +574,18 @@
             key-positions = <0 8>;
             layers = <6>;
         };
+
+        close {
+            bindings = <&kp LC(W)>;
+            key-positions = <14 12>;
+            layers = <6>;
+        };
+
+        close2 {
+            bindings = <&kp LC(W)>;
+            key-positions = <11 9>;
+            layers = <6>;
+        };
     };
 
     behaviors {
