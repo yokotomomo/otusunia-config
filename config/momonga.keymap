@@ -550,8 +550,8 @@
             // ------------------------------------------------------------------------------------------
 
             bindings = <
-&lt 1 K  &lt 2 T  &kp U  &lt 4 N  &lt 4 N  &kp U  &lt 2 T  &lt 1 K
-&lt 3 E  &kp I    &kp A  &lt 5 O  &lt 5 O  &kp A  &kp I    &lt 3 E
+&lt 1 K  &lt 2 T       &mt LCTRL U       &lt 4 N  &lt 4 N  &mt RCTRL U       &lt 2 T           &lt 1 K
+&lt 3 E  &mt LSHIFT I  &mt LEFT_SHIFT A  &lt 5 O  &lt 5 O  &mt LEFT_SHIFT A  &mt LEFT_SHIFT I  &lt 3 E
             >;
         };
 
