@@ -656,8 +656,8 @@
 
         layer_5 {
             bindings = <
-&kp LS(LBKT)  &kp LS(N2)  &kp LS(N7)  &bt BT_SEL 1  &bt BT_SEL 0  &kp LS(N7)  &kp LS(N2)  &kp LS(LBKT)
-&kp LS(INT1)  &kp SEMI    &kp SQT     &trans        &trans        &kp SQT     &kp SEMI    &kp LS(INT1)
+&kp LS(LBKT)  &kp LS(N2)  &kp LS(N7)  &bt BT_NXT  &bt BT_NXT  &kp LS(N7)  &kp LS(N2)  &kp LS(LBKT)
+&kp LS(INT1)  &kp SEMI    &kp SQT     &trans      &trans      &kp SQT     &kp SEMI    &kp LS(INT1)
             >;
         };
 
