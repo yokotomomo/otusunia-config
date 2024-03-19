@@ -94,13 +94,13 @@
 
         y {
             bindings = <&kp Y>;
-            key-positions = <14 15>;
+            key-positions = <6 7>;
             layers = <0>;
         };
 
         y2 {
             bindings = <&kp Y>;
-            key-positions = <8 9>;
+            key-positions = <1 0>;
             layers = <0>;
         };
 
@@ -118,13 +118,13 @@
 
         w {
             bindings = <&kp W>;
-            key-positions = <7 6>;
+            key-positions = <14 15>;
             layers = <0>;
         };
 
         w2 {
             bindings = <&kp W>;
-            key-positions = <1 0>;
+            key-positions = <8 9>;
         };
 
         f {
