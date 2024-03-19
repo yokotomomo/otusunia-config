@@ -587,6 +587,18 @@
             key-positions = <11 9>;
             layers = <6>;
         };
+
+        kaigyou {
+            bindings = <&kp LC(ENTER)>;
+            key-positions = <14 15>;
+            layers = <6>;
+        };
+
+        kaigyou2 {
+            bindings = <&kp LC(ENTER)>;
+            key-positions = <8 9>;
+            layers = <6>;
+        };
     };
 
     behaviors {
