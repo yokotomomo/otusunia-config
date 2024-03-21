@@ -633,10 +633,10 @@
             // ------------------------------------------------------------------------------------------
 
             bindings = <
-&mylt_behavior 1 K  &mylt_behavior 2 T           &mylt_behavior 6 U           &mylt_behavior 4 N  &mylt_behavior 4 N  &mylt_behavior 6 U           &mylt_behavior 2 T           &mylt_behavior 1 K
+&mylt_behavior 1 K  &kp T                        &mylt_behavior 6 U           &mylt_behavior 4 N  &mylt_behavior 4 N  &mylt_behavior 6 U           &kp T                        &mylt_behavior 1 K
 &mylt_behavior 3 E  &mymt_behavior LEFT_SHIFT I  &mymt_behavior LEFT_SHIFT A  &mylt_behavior 5 O  &mylt_behavior 5 O  &mymt_behavior LEFT_SHIFT A  &mymt_behavior LEFT_SHIFT I  &mylt_behavior 3 E
-                    &trans                       &trans                                                               &trans                       &trans
->;
+                    &mkp MB2                     &mkp MB1                                                             &mkp MB1                     &mkp MB2
+            >;
         };
 
         layer_1 {
@@ -649,9 +649,9 @@
 
         layer_2 {
             bindings = <
-&to 0  &to 0  &mkp MB2  &mkp MB1  &mkp MB1  &mkp MB2  &to 0  &to 0
-&to 0  &to 0  &to 0     &to 0     &to 0     &to 0     &to 0  &to 0
-       &trans &trans                        &trans    &trans
+&to 0  &to 0   &mkp MB2  &mkp MB1  &mkp MB1  &mkp MB2  &to 0   &to 0
+&to 0  &to 0   &to 0     &to 0     &to 0     &to 0     &to 0   &to 0
+       &trans  &trans                        &trans    &trans
             >;
         };
 
