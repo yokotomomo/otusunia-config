@@ -19,6 +19,6 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: pocket_owl
+    shield: otusunia
   - board: seeeduino_xiao_ble
     shield: settings_reset
