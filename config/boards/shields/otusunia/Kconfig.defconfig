@@ -1,5 +1,5 @@
 config ZMK_KEYBOARD_NAME
-    default "pocket_owl"
+    default "otusunia"
 
 config SPI
 	default y
