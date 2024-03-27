@@ -230,26 +230,31 @@
         enter2 {
             bindings = <&kp ENTER>;
             key-positions = <9 8>;
+            layers = <0>;
         };
 
         space {
             bindings = <&kp SPACE>;
             key-positions = <13 12>;
+            layers = <0>;
         };
 
         space2 {
             bindings = <&kp SPACE>;
             key-positions = <10 11>;
+            layers = <0>;
         };
 
         back {
             bindings = <&kp BACKSPACE>;
             key-positions = <14 13>;
+            layers = <0>;
         };
 
         back2 {
             bindings = <&kp BACKSPACE>;
             key-positions = <9 10>;
+            layers = <0>;
         };
 
         hankaku {
