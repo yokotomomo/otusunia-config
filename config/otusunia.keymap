@@ -212,13 +212,13 @@
 
         l {
             bindings = <&kp L>;
-            key-positions = <12 15 14>;
+            key-positions = <15 14 13>;
             layers = <0>;
         };
 
         l2 {
             bindings = <&kp L>;
-            key-positions = <8 11 9>;
+            key-positions = <8 9 10>;
             layers = <0>;
         };
 
@@ -608,13 +608,25 @@
 
         btclr_all {
             bindings = <&bt BT_CLR_ALL>;
-            key-positions = <4 12 5 13 6 14 15 7>;
+            key-positions = <12 13 14 15>;
             layers = <0>;
         };
 
         btclr_all2 {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <8 9 10 11>;
+            layers = <0>;
+        };
+
+        outble {
             bindings = <&out OUT_BLE>;
-            key-positions = <8 0 9 1 2 10 3 11>;
+            key-positions = <8 9 10 11 3 2 1 0>;
+            layers = <0>;
+        };
+
+        outble2 {
+            bindings = <&out OUT_BLE>;
+            key-positions = <4 12 4 5 6 13 6 7 14 15>;
             layers = <0>;
         };
     };
