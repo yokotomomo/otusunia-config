@@ -212,13 +212,13 @@
 
         l {
             bindings = <&kp L>;
-            key-positions = <15 14 13>;
+            key-positions = <15 13 12>;
             layers = <0>;
         };
 
         l2 {
             bindings = <&kp L>;
-            key-positions = <8 9 10>;
+            key-positions = <8 9 11>;
             layers = <0>;
         };
 
