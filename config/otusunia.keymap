@@ -119,13 +119,13 @@
 
         w {
             bindings = <&kp W>;
-            key-positions = <7 6 4>;
+            key-positions = <4 12 5>;
             layers = <0>;
         };
 
         w2 {
             bindings = <&kp W>;
-            key-positions = <0 2 3>;
+            key-positions = <2 3 11>;
         };
 
         f {
