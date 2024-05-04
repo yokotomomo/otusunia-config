@@ -608,13 +608,13 @@
 
         btclr_all {
             bindings = <&bt BT_CLR_ALL>;
-            key-positions = <12 13 14 15>;
+            key-positions = <12 13 14 15 18 19>;
             layers = <0>;
         };
 
         btclr_all2 {
             bindings = <&bt BT_CLR_ALL>;
-            key-positions = <8 9 10 11>;
+            key-positions = <8 9 10 11 16 17>;
             layers = <0>;
         };
 
@@ -628,6 +628,16 @@
             bindings = <&out OUT_BLE>;
             key-positions = <4 12 4 5 6 13 6 7 14 15>;
             layers = <0>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <15 14 13 12>;
+        };
+
+        tab2 {
+            bindings = <&kp TAB>;
+            key-positions = <11 10 9 8>;
         };
     };
 
